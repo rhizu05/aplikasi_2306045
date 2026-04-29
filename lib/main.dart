@@ -17,7 +17,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: title,
       home: Scaffold(
-        appBar: AppBar(backgroundColor: Colors.blue, title: Text(title), centerTitle: true),
+        appBar: AppBar(
+          backgroundColor: Colors.blue,
+          title: Text(title),
+          centerTitle: true,
+        ),
         body: Column(
           children: [
             Text(message),
@@ -29,7 +33,7 @@ class MyApp extends StatelessWidget {
             Text(message),
             Text(message),
             Text(message),
-          ],  
+          ],
         ),
       ),
     );
